@@ -67,6 +67,9 @@ class Login extends Component {
               error.response.data.message) ||
             error.message ||
             error.toString();
+            console.error("ESTE LOGIN NO VA A FUNCIONAR YA QUE UTILIZA UNA BASE DA DATOS MYSQL");
+            console.info("ALUMNO: MAXIMO DIEGO GAMON SIMENTAL PARCIAL 2");
+            console.log("Consulta la configuración del proyecto en https://www.youtube.com/watch?v=tNcWX9qPcCM&quot");
 
           this.setState({
             loading: false,
